@@ -1,17 +1,23 @@
+
+/*selecciono la etiqueta body*/
 body {
-  /*defino que fuente quieor utilizar*/
+  /*defino que fuente quiero utilizar*/
 font-family: sans-serif;
 }
+/*selescciono la etiqueta que engloba al menu*/
 nav {
   /*outline: 1px solid yellow;*/
 }
+/*selecciono mi lista desordenada*/
 ul {
   /*outline: 1px solid blue;*/
   list-style: none;
   /*nos aseguramos que queden bien colocados en cualquier navegador.*/
   padding: 0;
   margin: 0;
+  /*indicamos el color de fondo de los objetos de la lista*/
   background: #2e2e2a;
+  /*configurmos el espaciado entre las los elementos de la lista*/
   line-height: 40px;
   /*devuelve a la etiqueta su contexto de bloque */
   overflow: auto;
@@ -23,9 +29,11 @@ li {
   /*modificamos el ancho para que esten una al lado de la otra.*/
   /*display: inline-block;*/
   padding: 15px;
+  /*alineamos al centro a los vinculos*/
   text-align: center;
-  /*los objetos se posicionan uno al lado del otro*/
+  /*los vinculos se posicionan uno al lado del otro*/
   float: left;
+  /*configuramos el display para que se comporten como objetos inline
   display: inline-block;
   padding: 0px;
 }
@@ -34,9 +42,13 @@ a {
   text-decoration: none;
   /*nos permite acceder al link sin hacer click necesariamente en las palabra.*/
   display: block;
+  /*selesccionamos el color que usaremos de fondo*/
   color: #fff;
 }
+/*seleccionamos la etiqueta "a" e indicamos los estilos a utilizar cuando el cursor interactue con nuestro programa*/
 a:hover {
+  /*color de fondo del elemento de la lista*/
   background: #f9a91a;
+  /*configuramos el color de letra*/
   color: #000;
 }
