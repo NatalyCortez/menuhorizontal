@@ -13,7 +13,7 @@ Aprender a realizar un menú horizontal,utilizando la información brindada en c
 
    **overflow: auto**; // devuelve a la etiqueta su contexto de bloque.
 
-   **float: left**; //los vinculos se posicionan uno al lado del otro.
+   **float: left**; //Deje que los elementos floten a la izquierda y  se posicionen uno al lado del otro.
 
    **- line-height: 24px**; //usadas para agregar espaciado entre cada elemento de un texto ,en este caso de cada elemento de la lista .
 
@@ -34,4 +34,4 @@ Herrmaientas utilizadas :
 
 Vista previa:
 ----
-![VISTAPROYECTO](https://raw.githubusercontent.com/NatalyCortez/menuvertical/master/assets/img/Captura.PNG)
+![VISTAPROYECTO](https://raw.githubusercontent.com/NatalyCortez/menuhorizontal/master/assets/img/Captura.PNG)
