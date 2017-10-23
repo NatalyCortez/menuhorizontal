@@ -33,7 +33,7 @@ li {
   text-align: center;
   /*los vinculos se posicionan uno al lado del otro*/
   float: left;
-  /*configuramos el display para que se comporten como objetos inline
+  /*configuramos el display para que se comporten como objetos inline*/
   display: inline-block;
   padding: 0px;
 }

@@ -5,13 +5,17 @@ En este proyecto se mostrará la estructura básica que los contruyen.
 
 Objetivo:
 -----
-Aprender a realizar un menú vertical,utilizando la información brindada en clases y en el material teorico-práctico.
+Aprender a realizar un menú horizontal,utilizando la información brindada en clases y en el material teorico-práctico.
 
 **Aprenderemos a usar mas propiedades como :**
 
    **-list-style: none**; //usada para modificar las viñetas de una lista desordenada ,en este caso las elimina.
 
-   **- line-height: 24px**; //usada para agregar espaciado entre cada elemento de un texto ,en este caso de cada elemento de la lista .
+   **overflow: auto**; // devuelve a la etiqueta su contexto de bloque.
+
+   **float: left**; //los vinculos se posicionan uno al lado del otro.
+
+   **- line-height: 24px**; //usadas para agregar espaciado entre cada elemento de un texto ,en este caso de cada elemento de la lista .
 
    **-text-decoration: none**; // usada para eliminar el subrayado de los textos vinculados a un link.
 
