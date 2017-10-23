@@ -11,9 +11,9 @@ Aprender a realizar un menú horizontal,utilizando la información brindada en c
 
    **-list-style: none**; //usada para modificar las viñetas de una lista desordenada ,en este caso las elimina.
 
-   **overflow: auto**; // devuelve a la etiqueta su contexto de bloque.
+   **-overflow: auto**; // devuelve a la etiqueta su contexto de bloque.
 
-   **float: left**; //Deje que los elementos floten a la izquierda y  se posicionen uno al lado del otro.
+   **-float: left**; //Deje que los elementos floten a la izquierda y  se posicionen uno al lado del otro.
 
    **- line-height: 24px**; //usadas para agregar espaciado entre cada elemento de un texto ,en este caso de cada elemento de la lista .
 
