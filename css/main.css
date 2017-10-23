@@ -1,0 +1,42 @@
+body {
+  /*defino que fuente quieor utilizar*/
+font-family: sans-serif;
+}
+nav {
+  /*outline: 1px solid yellow;*/
+}
+ul {
+  /*outline: 1px solid blue;*/
+  list-style: none;
+  /*nos aseguramos que queden bien colocados en cualquier navegador.*/
+  padding: 0;
+  margin: 0;
+  background: #2e2e2a;
+  line-height: 40px;
+  /*devuelve a la etiqueta su contexto de bloque */
+  overflow: auto;
+}
+li {
+  /*outline: 1px solid red;*/
+  /*indicamos la anchura de nuestras cajas*/
+  width: 100px;
+  /*modificamos el ancho para que esten una al lado de la otra.*/
+  /*display: inline-block;*/
+  padding: 15px;
+  text-align: center;
+  /*los objetos se posicionan uno al lado del otro*/
+  float: left;
+  display: inline-block;
+  padding: 0px;
+}
+a {
+  /*outline: 1px solid green ;*/
+  text-decoration: none;
+  /*nos permite acceder al link sin hacer click necesariamente en las palabra.*/
+  display: block;
+  color: #fff;
+}
+a:hover {
+  background: #f9a91a;
+  color: #000;
+}
